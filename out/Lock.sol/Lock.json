@@ -1,0 +1,194 @@
+{
+  "abi": [
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50604880601d6000396000f3fe608060405236600d57600080fd5b600080fdfea26469706673582212205b7867cf8662fc835bc83f9dca0fcbd2e6361787a224a146ef679136cf8e23e764736f6c63430008140033",
+    "sourceMap": "25:74:19:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405236600d57600080fd5b600080fdfea26469706673582212205b7867cf8662fc835bc83f9dca0fcbd2e6361787a224a146ef679136cf8e23e764736f6c63430008140033",
+    "sourceMap": "25:74:19:-:0;;;;;;82:8;;;25:74;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Lock.sol\":\"Lock\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Lock.sol\":{\"keccak256\":\"0xdd24cc43f85d3534098a2edac18ec453149d1b7b44356682eeafa49506be297d\",\"urls\":[\"bzz-raw://8a405fdc6f950171d476dd30753139f1ae64d1fb178ac05dbb09af61371e4362\",\"dweb:/ipfs/QmXBC26QozeVehkrkpskXn9n8LNmXwnPGqf6rDPX2oJEMZ\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.20+commit.a1b79de6"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "payable",
+          "type": "receive"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Lock.sol": "Lock"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Lock.sol": {
+        "keccak256": "0xdd24cc43f85d3534098a2edac18ec453149d1b7b44356682eeafa49506be297d",
+        "urls": [
+          "bzz-raw://8a405fdc6f950171d476dd30753139f1ae64d1fb178ac05dbb09af61371e4362",
+          "dweb:/ipfs/QmXBC26QozeVehkrkpskXn9n8LNmXwnPGqf6rDPX2oJEMZ"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Lock.sol",
+    "id": 43531,
+    "exportedSymbols": {
+      "Lock": [
+        43530
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:100:19",
+    "nodes": [
+      {
+        "id": 43522,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:19",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 43530,
+        "nodeType": "ContractDefinition",
+        "src": "25:74:19",
+        "nodes": [
+          {
+            "id": 43529,
+            "nodeType": "FunctionDefinition",
+            "src": "45:52:19",
+            "nodes": [],
+            "body": {
+              "id": 43528,
+              "nodeType": "Block",
+              "src": "72:25:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 43525,
+                      "name": "revert",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -19,
+                        -19
+                      ],
+                      "referencedDeclaration": -19,
+                      "src": "82:6:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_revert_pure$__$returns$__$",
+                        "typeString": "function () pure"
+                      }
+                    },
+                    "id": 43526,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "82:8:19",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 43527,
+                  "nodeType": "ExpressionStatement",
+                  "src": "82:8:19"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "receive",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 43523,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "52:2:19"
+            },
+            "returnParameters": {
+              "id": 43524,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:0:19"
+            },
+            "scope": 43530,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Lock",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43530
+        ],
+        "name": "Lock",
+        "nameLocation": "34:4:19",
+        "scope": 43531,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ]
+  },
+  "id": 19
+}
